@@ -87,7 +87,7 @@ let userData = {};
     swal({
         title: `welcome ${lastLogin(toPascalCase(playerName))}`,               // welcome popup
         text: `we hope you enjoy our game you need to get score 50 to win`,
-        html: `<img src="./images/1.png" >`,
+        html: `<img src="../images/1.png" >`,
         width: '800px',
         confirmButtonText: "Start",
     })
