@@ -87,7 +87,7 @@ let userData = {};
     swal({
         title: `welcome ${lastLogin(toPascalCase(playerName))}`,               // welcome popup
         text: `we hope you enjoy our game you need to get score 50 to win`,
-        html: `<img src="./images/background1.jpg" >`,
+        html: `<img src="./images/1.jpg" >`,
         width: '800px',
         confirmButtonText: "Start",
     })
@@ -110,7 +110,7 @@ let userData = {};
                 {                                                       
                     selectSound(winSound, sounds);   
                     swal({
-                        html: ` <img src="./images/2.png" >`,
+                        html: ` <img src="./images/2.jpg" >`,
                         title: `You Win , your Score ${score}`,
                         width: '800px',
                         confirmButtonText: "Play Again",
@@ -123,7 +123,7 @@ let userData = {};
                 {
                     selectSound(loseSound, sounds,0);
                     swal({
-                        html: `<img src="./images/3.png" >`,
+                        html: `<img src="./images/3.jpg" >`,
                         title: ` You Lose , your Score ${score} `,
                         width: '800px',
                         confirmButtonText: "Play Again",
